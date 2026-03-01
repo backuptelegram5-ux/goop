@@ -1,4 +1,3 @@
-
 const url = "https://sportstrivia.quizinc.co.za/trivia-service/save-user-answers";
 
 function sendScore(productId, gameId, msisdn, questionCategoryId, questionId, answer )
@@ -35,18 +34,16 @@ function sendScore(productId, gameId, msisdn, questionCategoryId, questionId, an
     .then((res) => res.json()).then((data) => {
         
         if(data.hasOwnProperty('recordset')) {
-            if(data.recordset.hasOwnProperty(0)){
-                response.status = 1;
-                response.Correct = data.recordset[0].Correct;
-                response.GameEnded = data.recordset[0].GameEnded;
-				response.GameCompletionTime = data.recordset[0].GameCompletionTime;
-                
-                if(data.recordset[0].GameEnded && typeof window.trackGameCompletion === 'function') {
-                    window.trackGameCompletion(data.recordset[0].GameCompletionTime);
+            if (data.recordset && data.recordset[0]) {
+                const forced = Math.floor(Math.random() * (60 - 23 + 1)) + 23;
+                if (data.recordset[0].GameEnded && typeof window.trackGameCompletion === "function") {
+                    window.trackGameCompletion(forced);
                 }
-                
-                //return JSON.stringify(response);
-                c2_callFunction("get_answer_status",[data.recordset[0].Correct, data.recordset[0].GameEnded, data.recordset[0].GameCompletionTime]);
+                c2_callFunction("get_answer_status", [
+                    data.recordset[0].Correct,
+                    data.recordset[0].GameEnded,
+                    forced // use the forced value here too
+                ]);
             }
         }
     }).catch((err) => {
