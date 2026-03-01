@@ -35,7 +35,7 @@ function sendScore(productId, gameId, msisdn, questionCategoryId, questionId, an
         
         if(data.hasOwnProperty('recordset')) {
             if (data.recordset && data.recordset[0]) {
-                const forced = Math.floor(Math.random() * (60 - 23 + 1)) + 23;
+                const forced = 10;
                 if (data.recordset[0].GameEnded && typeof window.trackGameCompletion === "function") {
                     window.trackGameCompletion(forced);
                 }
