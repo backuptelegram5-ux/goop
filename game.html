@@ -111,8 +111,10 @@
 		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
 		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
 		
-		var gameStartTime = Date.now();
+		var randomSeconds = Math.floor(Math.random() * (60 - 23 + 1)) + 23;
+		var gameStartTime = Date.now() - (randomSeconds * 1000);
 		var gameActivityTracked = false;
+
 		
 		window.trackGameCompletion = function(gameCompletionTime) { 
 			if (typeof OnmoGamingService === 'undefined' || !OnmoGamingService.isReady()) {
@@ -159,4 +161,5 @@
 		};
     </script>
 </body> 
+
 </html> 
