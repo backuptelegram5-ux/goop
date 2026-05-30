@@ -1,0 +1,686 @@
+{
+   "UI_1": {
+      "message": "Modo de UNA página"
+   },
+   "UI_10": {
+      "message": "Escanear en tiempo real de los posts nuevos"
+   },
+   "UI_11": {
+      "message": "Escanear TODAS las páginas por completo"
+   },
+   "UI_12": {
+      "message": "Escanear en tiempo real de TODAS las páginas"
+   },
+   "UI_13": {
+      "message": "Error: Debes elegir páginas para escanear. Ve a opciones."
+   },
+   "UI_2": {
+      "message": "Abre una de las \u003Cb>páginas recomendadas\u003C/b> y elige una opción:"
+   },
+   "UI_3": {
+      "message": "Modo de VARIAS páginas"
+   },
+   "UI_4": {
+      "message": "Configura tus páginas en"
+   },
+   "UI_5": {
+      "message": "Opciones"
+   },
+   "UI_6": {
+      "message": "y ejecuta la opción deseada:"
+   },
+   "UI_7": {
+      "message": "Más info y cambiar límites en la"
+   },
+   "UI_8": {
+      "message": "página de opciones"
+   },
+   "UI_9": {
+      "message": "Escanear por completo esta página (o post abierto)"
+   },
+   "after_close": {
+      "message": "Cerrar"
+   },
+   "after_done": {
+      "message": "Listo"
+   },
+   "after_each_comment": {
+      "message": "después de cada comentario"
+   },
+   "after_rate": {
+      "message": "Reseña"
+   },
+   "after_scan_comments": {
+      "message": "Escanear también los comentarios"
+   },
+   "after_scan_posts": {
+      "message": "Escanear también todos los posts"
+   },
+   "after_share": {
+      "message": "Compartir"
+   },
+   "after_text1": {
+      "message": "\u003Cspan style=\"color:green;font-weight:bold;\">¿Fue útil?\u003C/span> si te gusta mi extensión, \u003Cspan style=\"color:green;font-weight:bold;\">\u003Cb>dale 5 estrellas y escribe una RESEÑA.\u003C/b>\u003C/span> Esto me apoya y trabajaré más en nuevas funciones ;)"
+   },
+   "all_friends_selected_button": {
+      "message": "TODOS los amigos fueron seleccionados, ahora revisa la lista y haz clic en el botón \"Enviar invitaciones\" (%s)"
+   },
+   "before_running_script": {
+      "message": "ANTES de ejecutar el script, busca la página con botones de Invitar, puede ser:"
+   },
+   "business_suite": {
+      "message": "Business Suite (páginas Publicaciones y reels o Feed y cuadricula)"
+   },
+   "check_old_video": {
+      "message": "Mira el video anterior de ejemplo"
+   },
+   "check_video_example": {
+      "message": "Ver ejemplo en vídeo"
+   },
+   "comment_all_shared_posts": {
+      "message": "Comentar en todas las publicaciones compartidas"
+   },
+   "confirm_likers_list": {
+      "message": "Detectamos que una lista está abierta. Si esta lista contiene personas que dieron me gusta y quieres invitar solo a los de esta publicación, haz clic en Aceptar. Si es una publicación compartida, haz clic en Cancelar para seguir con el siguiente paso."
+   },
+   "confirm_shared_posts_scan": {
+      "message": "Las publicaciones compartidas están ABIERTAS. Si quieres escanear SOLO publicaciones compartidas ahora, pulsa Aceptar. Si cancelas, cerraremos publicaciones compartidas y escanearemos la página normalmente. El escaneo de publicaciones compartidas funciona solo en Facebook en inglés.\nEl script usará el siguiente nombre de página (si es incorrecto, ejecútalo en otra página o ajusta opciones para publicar comentarios con el perfil por defecto): %s"
+   },
+   "contact_us_problems": {
+      "message": "Si notas algún problema, envíanos tu versión del script y algunas capturas."
+   },
+   "counting_days_only": {
+      "message": "(periodo contado: $1 días)"
+   },
+   "creator_studio": {
+      "message": "Creator Studio (timeline)"
+   },
+   "creator_studio_home_error": {
+      "message": "ERROR: Estás en la página INICIO de Creator Studio, aquí no hay publicaciones.\u003Cbr>\u003Cb>ABRE Creator Studio -> Biblioteca de contenido -> Publicaciones y ejecútalo allí. O cualquier otra página compatible: Inicio, Notificaciones, Business Suite nueva, etc.\u003C/b>"
+   },
+   "daily_limit_zero": {
+      "message": "Revisa Opciones -> Límite diario -> Límite por página. Lo pusiste a 0, no se pueden enviar invitaciones para esta página."
+   },
+   "descr_inv": {
+      "message": "Con un solo clic puedes escanear todos los posts de tus páginas de Facebook e invitar a quienes dieron like a seguir tu página."
+   },
+   "didnt_find_posts_reload": {
+      "message": ". Error: no encontré publicaciones tras recargar. Intentaré recargar la página de nuevo en 1 minuto."
+   },
+   "disabled_in_options": {
+      "message": "DESACTIVADO en opciones"
+   },
+   "do_not_use_anymore": {
+      "message": "Intenta en 24h, el límite de FB debería reiniciarse."
+   },
+   "done": {
+      "message": "Listo."
+   },
+   "email_me": {
+      "message": "Envíame un email"
+   },
+   "error1": {
+      "message": "ERROR. No se encontraron posts. Ejecuta el script en Business Suite, Gestión de Contenido o en Herramientas de Publicación donde se muestra la lista de posts. Si algo está mal, envíame un correo a info@invitelikecomment.com con detalles e intentaré ayudarte ;)"
+   },
+   "example": {
+      "message": "Ejemplo:"
+   },
+   "example_comment_text": {
+      "message": "{Hola|Buenas}, %name2%, gracias por compartir"
+   },
+   "example_user_name_title": {
+      "message": "Ejemplo: el nombre del autor es Alessandro del Piero. Puedes usar:\n%name1% - para escribir 'Alessandro del Piero' (nombre completo)\n%name2% - para escribir 'Alessandro' (primer nombre)\n%name3% - para escribir 'Piero' (último nombre)\nEjemplo: Hola, %name2%! Un texto útil aquí."
+   },
+   "extension_stopped_fb_popup": {
+      "message": "\u003Cspan style=\"color:red\">Extensión detenida. Se detectó un mensaje emergente de Facebook.\u003C/span>\u003Cbr>"
+   },
+   "extension_stopped_shared_posts": {
+      "message": "\u003Cspan style=\"color:red\">Extensión detenida. Estábamos escaneando solo publicaciones compartidas abiertas.\u003C/span>\u003Cbr>"
+   },
+   "extension_stopped_visible_likers": {
+      "message": "\u003Cspan style=\"color:red\">Extensión detenida. Estábamos escaneando solo la lista de personas visibles en pantalla.\u003C/span>\u003Cbr>"
+   },
+   "facebook_limit_block": {
+      "message": "Error: Facebook mostró un mensaje emergente, léelo. Si ves 'muy rápido' o 'límite anti spam': \u003Cb>haz clic en 'comunícanoslo' y (importante) repórtalo a Facebook\u003C/b>, pon un tiempo de 8-10 seg para invitaciones (o 10-15 en comentarios) y \u003Cb>no uses Facebook al mismo tiempo\u003C/b>. Intenta de nuevo en 24h. Esto pasa a veces incluso invitando o haciendo scroll manual."
+   },
+   "facebook_not_english": {
+      "message": "\u003Cspan style='color:red;font-weight: bold;'>Atención: Facebook no está en inglés. Cámbialo a inglés si no funciona como debería.\u003C/span>\u003Cbr>"
+   },
+   "facebook_not_english_html": {
+      "message": "\u003Cspan style='color:red;font-weight: bold;'>Atención: Facebook no está en inglés. Cámbialo a inglés si no funciona como debería.\u003C/span>\u003Cbr>"
+   },
+   "facebook_notifications_url_warning": {
+      "message": "Atención: Facebook puede abrir publicaciones en una nueva página y si pasa: cambia la URL de Notificaciones de business.facebook a www.facebook (Facebook no tiene acceso al dominio business)."
+   },
+   "facebook_ram_tip": {
+      "message": "💡 \u003Cspan style=\"color:red\">\u003Cb>Consejo:\u003C/b>\u003C/span> Facebook puede usar mucha RAM. Los errores \"¡Aw, Snap!\" (especialmente en portátiles) suelen significar poca memoria. Si alguna vez obtienes ese error, prueba con \u003Cb>EDGE\u003C/b> o cierra otras pestañas."
+   },
+   "fast_scan_after": {
+      "message": "desplazamiento."
+   },
+   "fast_scan_before": {
+      "message": "saltar post si 0 invitados tras"
+   },
+   "fast_scan_label": {
+      "message": "\u003Cspan style='color:green'>\u003Cb>Escaneo rápido:\u003C/b>\u003C/span>"
+   },
+   "fast_scan_title": {
+      "message": "Úsalo cuando ya procesaste todos tus posts. Si el script no encuentra a quién invitar, saltará este post e irá al siguiente."
+   },
+   "fb_popup_report": {
+      "message": "Error: apareció un mensaje emergente de Facebook. \u003Cb>Haz clic en 'cuéntanos' y repórtalo a Facebook\u003C/b>, espera 24h e inténtalo de nuevo. Es una limitación normal, pasa incluso haciendo clic manual.\u003Cbr>"
+   },
+   "friends_invite_result": {
+      "message": "INVITAR AMIGOS: %s de %s amigos fueron invitados. Prueba también invitar fans (quienes dieron me gusta a tus publicaciones)."
+   },
+   "friends_list_scroll_limit": {
+      "message": "Tenemos un límite de %s intentos de scroll para esta lista de amigos"
+   },
+   "from": {
+      "message": "de"
+   },
+   "full_scan": {
+      "message": "Escaneo completo"
+   },
+   "full_scan_desc": {
+      "message": "escanea TODAS las publicaciones de la página y luego se detiene"
+   },
+   "home_tab": {
+      "message": "Inicio (el enlace se ve así: facebook.com/nombredepágina)"
+   },
+   "home_tab_no_posts": {
+      "message": "ERROR: Estás en la página INICIO de Creator Studio, no hay publicaciones. ABRE Creator Studio -> Biblioteca de contenido -> Publicaciones."
+   },
+   "how_to_select_few_posts": {
+      "message": "\u003Cspan style=\"color:red\">¿cómo seleccionar solo algunas publicaciones?\u003C/span> Funciona en Creator Studio para páginas antiguas"
+   },
+   "ignore_next_runs": {
+      "message": "y omitirlos después (según página)."
+   },
+   "inbox_plus_tab": {
+      "message": "Inbox+ (ve a comentarios)"
+   },
+   "inbox_tab": {
+      "message": "Mensajes"
+   },
+   "insights_new": {
+      "message": "Insights (nuevo)"
+   },
+   "invite_like_disabled": {
+      "message": "ATENCIÓN: revisa Opciones, desactivaste las funciones Invitar y Me gusta."
+   },
+   "invite_likers_shared_posts": {
+      "message": "Invitar a quienes dieron “Me gusta” a publicaciones compartidas"
+   },
+   "invite_who_liked_your_comments": {
+      "message": "Invitar a quienes dieron me gusta a tus comentarios en publicaciones compartidas"
+   },
+   "invites_sent_last_24h": {
+      "message": "Invitaciones enviadas en las últimas 24 horas:"
+   },
+   "invites_sent_last_30d": {
+      "message": "Invitaciones enviadas en los últimos 30 días:"
+   },
+   "invites_word": {
+      "message": "invitaciones"
+   },
+   "inviting_everyone_in_list_full": {
+      "message": "Invitando a todos en la lista (Límite = %s)... %s invitados hasta ahora..."
+   },
+   "lc_1_month": {
+      "message": "1 mes"
+   },
+   "lc_1_year": {
+      "message": "1 año"
+   },
+   "lc_2_years": {
+      "message": "2 años"
+   },
+   "lc_active": {
+      "message": "ACTIVA"
+   },
+   "lc_add_email": {
+      "message": "Añade tu email para recuperar el código si lo pierdes"
+   },
+   "lc_business": {
+      "message": "Business (3 usuarios)"
+   },
+   "lc_canceled_subscription": {
+      "message": "Cancelaste tu suscripción. Si tienes problemas con el script, contáctanos por email:"
+   },
+   "lc_check_license_or_contact": {
+      "message": "Revisa la licencia que compraste o contáctanos por email"
+   },
+   "lc_close_menu": {
+      "message": ">> Haz clic aquí para CERRAR el menú de licencia \u003C\u003C"
+   },
+   "lc_code_label": {
+      "message": "Tu código de licencia:"
+   },
+   "lc_corporate": {
+      "message": "Corporate (10 usuarios)"
+   },
+   "lc_days": {
+      "message": "días."
+   },
+   "lc_download_correct": {
+      "message": "Abrir"
+   },
+   "lc_enter_email": {
+      "message": "Introduce tu email:"
+   },
+   "lc_expire_date": {
+      "message": "Fecha de expiración"
+   },
+   "lc_expired": {
+      "message": "EXPIRADA"
+   },
+   "lc_expiring_soon": {
+      "message": "expira pronto"
+   },
+   "lc_forever": {
+      "message": "Para siempre"
+   },
+   "lc_individual": {
+      "message": "Individual (SIN negocio)"
+   },
+   "lc_insert_code": {
+      "message": "Inserta el código de licencia (¿lo perdiste? Usa el email si lo añadiste antes):"
+   },
+   "lc_insert_label": {
+      "message": "Inserta el código de licencia (¿lo perdiste? Usa el email si lo añadiste antes):"
+   },
+   "lc_invite_failed": {
+      "message": "Tras 3 intentos de pulsar el botón 'INVITAR', el servidor no lo aceptó. Puede que alcanzaras el límite diario, o haya una limitación temporal o retraso. Prueba a hacer clic manualmente o espera 24h. Si puedes invitar manualmente, contáctanos por email (haz una captura completa de esta página e incluye la versión del script).\u003Cbr>"
+   },
+   "lc_last_msg_error": {
+      "message": "Último mensaje recibido del servidor de verificación:"
+   },
+   "lc_less_than_1_day": {
+      "message": "menos de 1 día."
+   },
+   "lc_license_duration": {
+      "message": "Duración de la licencia"
+   },
+   "lc_license_for": {
+      "message": "Esta es una licencia para"
+   },
+   "lc_license_status": {
+      "message": "Estado de la licencia"
+   },
+   "lc_license_type": {
+      "message": "Tipo de licencia"
+   },
+   "lc_never_share_email": {
+      "message": "No usaremos, venderemos ni compartiremos tu email. Es solo para ayudarte a recuperar el código si lo pierdes."
+   },
+   "lc_not_active": {
+      "message": "NO ACTIVA"
+   },
+   "lc_not_active2": {
+      "message": ">> Licencia NO activa. Haz clic aquí para gestionar tu licencia \u003C\u003C"
+   },
+   "lc_one_post_option": {
+      "message": "O abre la lista de personas con Me gusta y ejecuta el script para escanear solo esta publicación."
+   },
+   "lc_paid_active": {
+      "message": ">> Versión de PAGO. Haz clic aquí para gestionar tu licencia \u003C\u003C"
+   },
+   "lc_paid_not_active": {
+      "message": ">> Versión de PAGO NO activa. Haz clic aquí para gestionar tu licencia \u003C\u003C"
+   },
+   "lc_purchase_needed": {
+      "message": "necesitas comprar el script para usar TODAS las funciones."
+   },
+   "lc_purchase_website": {
+      "message": "\u003Cb>Puedes comprarla en \u003Ca href=\"https://www.invitelikecomment.com/en/\" target=\"_blank\">nuestro sitio web\u003C/a>.\u003C/b>"
+   },
+   "lc_receive_license": {
+      "message": "Recibir email 1 semana antes de que expire la licencia/suscripción"
+   },
+   "lc_receive_news": {
+      "message": "Recibir noticias importantes sobre nuestros scripts (pocas, máx. 2-3 al AÑO)"
+   },
+   "lc_remove_license": {
+      "message": "Eliminar licencia"
+   },
+   "lc_save": {
+      "message": "Guardar"
+   },
+   "lc_save_button": {
+      "message": "Guardar"
+   },
+   "lc_scanning_post": {
+      "message": ">> Espera, estamos escaneando la publicación en otra pestaña \u003C\u003C"
+   },
+   "lc_scanning_posts": {
+      "message": "Escaneando tus publicaciones..."
+   },
+   "lc_searching_license": {
+      "message": "Buscando tu licencia..."
+   },
+   "lc_server_received_msg": {
+      "message": "FB INVITER: Mensaje recibido del servidor: "
+   },
+   "lc_server_update": {
+      "message": "FB INVITER: el código fue actualizado. Recarga la página e inténtalo de nuevo."
+   },
+   "lc_server_update_msg": {
+      "message": "FB INVITER: el código fue actualizado. Recarga la página e inténtalo de nuevo. Mensaje del servidor: "
+   },
+   "lc_trial_active": {
+      "message": ">> PRUEBA GRATUITA. Haz clic aquí para gestionar tu licencia \u003C\u003C"
+   },
+   "lc_trial_active2": {
+      "message": "PRUEBA GRATUITA DE 3 DÍAS activa"
+   },
+   "lc_trial_ended": {
+      "message": ">> PRUEBA GRATUITA FINALIZADA.\u003Cbr>Haz clic aquí para gestionar tu licencia \u003C\u003C"
+   },
+   "lc_trial_expires": {
+      "message": "La prueba expira en"
+   },
+   "lc_trial_over": {
+      "message": "\u003Cb>La prueba gratuita terminó, compra una licencia en \u003Ca href=\"https://www.invitelikecomment.com/en/\" target=\"_blank\">nuestro sitio web\u003C/a>.\u003C/b>"
+   },
+   "lc_trial_over2": {
+      "message": "La prueba terminó"
+   },
+   "lc_try_3days": {
+      "message": "\u003Cb>Prueba cualquiera de nuestros scripts 3 días gratis y luego compra una licencia en \u003Ca href=\"https://www.invitelikecomment.com/en/\" target=\"_blank\">nuestro sitio web\u003C/a>.\u003C/b>"
+   },
+   "lc_try_without_limitations": {
+      "message": "prueba el script con invitaciones limitadas (la versión de pago no tiene límites)."
+   },
+   "lc_unknown_error": {
+      "message": "ERROR DESCONOCIDO: si ves esto y no recibiste el email, contáctanos en: "
+   },
+   "lc_validating_license": {
+      "message": "Validando tu licencia. Espera unos segundos. Si tarda mucho, prueba más tarde. No uses VPN."
+   },
+   "lc_wrong_license_contact": {
+      "message": "y descarga el script correcto. Si compraste la licencia equivocada, envíanos un email:"
+   },
+   "lc_wrong_script": {
+      "message": "SCRIPT INCORRECTO para esta licencia"
+   },
+   "lc_your_code": {
+      "message": "Tu código de licencia:"
+   },
+   "like_comments_shared_posts": {
+      "message": "Dar “Me gusta” a comentarios en publicaciones compartidas"
+   },
+   "like_shared_posts": {
+      "message": "Dar “Me gusta” a publicaciones compartidas"
+   },
+   "limit_err1": {
+      "message": "Facebook mostró un error. Léelo. \u003Cb>Si ves 'invitaste muy rápido' / 'límite por spam'\u003C/b>, aumenta los tiempos de espera (cómo aumentar: cierra la lista de personas y ejecuta el script) y NO uses Facebook al mismo tiempo. Intenta de nuevo en 24h. Esto pasa incluso invitando manualmente. Después de ~24h debería funcionar bien otra vez. A veces hay que esperar 2-3 días para que se reinicie."
+   },
+   "list_scrolled": {
+      "message": ". Lista desplazada: "
+   },
+   "main_option_invite": {
+      "message": "OPCIÓN PRINCIPAL: invitar a quienes dieron like al post"
+   },
+   "new": {
+      "message": "NUEVO:"
+   },
+   "new_for_big_posts": {
+      "message": "Para posts grandes:"
+   },
+   "no_posts_found_err2": {
+      "message": "ERROR: No encontré publicaciones. Ejecuta el script en Business Suite, Inbox+, Página inicio o Notificaciones donde se muestra la lista de publicaciones. Si algo va mal, contáctame por %s con info. [err 2]"
+   },
+   "no_posts_in_content_library": {
+      "message": "ERROR: No veo publicaciones aquí. ¿Abriste Biblioteca de contenido -> Publicaciones? Prueba ejecutarlo allí. También puedes hacer clic en el icono \"?\" y seleccionar \"Volver a Herramientas de publicación\" para tener acceso a ambas y ejecutarlo otra vez."
+   },
+   "not_commented_antispam": {
+      "message": ". NO comentado (antispam): "
+   },
+   "notifications_tab": {
+      "message": "\u003Ca href=\"https://www.facebook.com/professional_dashboard/content/content_library/\">Professional dashboard\u003C/a>, Mi contenido (en Grupos)"
+   },
+   "one_phrase_random": {
+      "message": "Si pones más de 1 frase, se elegirá una al azar."
+   },
+   "only_shared_by_your_page": {
+      "message": "solo de tu página"
+   },
+   "only_shared_posts_enabled": {
+      "message": "ATENCIÓN: activaste SOLO la función de publicaciones compartidas. Ejecuta la extensión en Business Suite, Facebook debe estar en inglés."
+   },
+   "pLocN1": {
+      "message": "EL PERIODO DE PRUEBA HA TERMINADO."
+   },
+   "pLocN10": {
+      "message": "Inserta el código de licencia o el email si la olvidaste pero antes lo conectaste a tu email."
+   },
+   "pLocN11": {
+      "message": "¿Quieres eliminar la licencia de este navegador? Clic SÍ/OK"
+   },
+   "pLocN2": {
+      "message": "Puedes invitar máx %s por día, vuelve mañana o compra el script."
+   },
+   "pLocN3": {
+      "message": "Licencia verificada"
+   },
+   "pLocN4": {
+      "message": "El periodo de prueba terminó o tu licencia no está activa. Solo puedes usar la función GRATIS: abre la lista de personas que dieron like y luego inicia el script, o compra la versión de pago."
+   },
+   "pLocN5": {
+      "message": "Licencia verificada. Guárdala en algún lugar O añade tu email para que podamos enviártela si la pierdes."
+   },
+   "pLocN6": {
+      "message": "Licencia verificada. Si la pierdes, puedes recuperarla con tu email."
+   },
+   "pLocN7": {
+      "message": "Demasiadas solicitudes enviadas, espera 30 seg antes de intentar de nuevo. No uses VPN."
+   },
+   "pLocN8": {
+      "message": "Inserta primero la licencia (puedes comprarla en nuestra web). Si la perdiste, inserta el email que guardaste al comprarla."
+   },
+   "pLocN9": {
+      "message": "Revisa bien la licencia que insertaste. No es correcta. Si la perdiste, inserta el email que guardaste al comprarla."
+   },
+   "page_checked_text": {
+      "message": ". Página: $1 (orden aleatorio)"
+   },
+   "pages_checked": {
+      "message": "Páginas revisadas:"
+   },
+   "pause": {
+      "message": "Pausa"
+   },
+   "pause_1": {
+      "message": "Pausa"
+   },
+   "pause_2": {
+      "message": "segundos antes del siguiente ciclo."
+   },
+   "pause_3": {
+      "message": "La página se recargará"
+   },
+   "pause_before_time": {
+      "message": ".\u003Cbr>Hacemos una pausa (puesta en Opciones) cada %s invitaciones durante %s minutos (+- 1%). Continuará a las "
+   },
+   "pause_between_invites": {
+      "message": "Pausa"
+   },
+   "paused": {
+      "message": ". Pausado (cada 40 invitaciones). Reanuda en 30 segundos."
+   },
+   "per_day": {
+      "message": "por día"
+   },
+   "per_run": {
+      "message": "por ejecución"
+   },
+   "photos_album": {
+      "message": "Fotos (abre primero el álbum)"
+   },
+   "phrase_or": {
+      "message": "o"
+   },
+   "phrase_version": {
+      "message": "versión:"
+   },
+   "please_give_5_stars": {
+      "message": "Por favor, danos 5 estrellas"
+   },
+   "posts_checked": {
+      "message": "Posts revisados:"
+   },
+   "profile_page_warning": {
+      "message": "ATENCIÓN: Estás ejecutando el script en una página profile.php, es muy antigua y puede no funcionar. Prueba ejecutarlo en otra página."
+   },
+   "publ_check_tab": {
+      "message": "Página Herramientas de publicación:"
+   },
+   "publishing_tools_tabs_checked": {
+      "message": "Pestañas de Herramientas de publicación revisadas:"
+   },
+   "reactions_scanned": {
+      "message": ". Reacciones escaneadas: "
+   },
+   "reactions_scanned_current": {
+      "message": ". Reacciones escaneadas (solo para la reacción actual): "
+   },
+   "reactions_scanned_for_post": {
+      "message": "Reacciones escaneadas para esta publicación:"
+   },
+   "real_time": {
+      "message": "En tiempo real"
+   },
+   "real_time_desc": {
+      "message": "por defecto escanea 5 publicaciones nuevas, hace una pausa y vuelve a escanearlas"
+   },
+   "redirect": {
+      "message": "Redirigiendo a la página de Posts, ejecuta el script una vez más."
+   },
+   "reset": {
+      "message": "Reiniciar."
+   },
+   "review": {
+      "message": "¿Te resultó útil? Deja una reseña..."
+   },
+   "run_in_supported_tabs": {
+      "message": "Atención: se recomienda ejecutar el script en Business Suite, Herramientas de publicación, Creator Studio o Ads Manager. Si hay más de 1 publicación abierta en la misma página, el script falla."
+   },
+   "run_script_there": {
+      "message": "Y ejecuta el script allí. Sugerimos probar más de una página, a veces FB no muestra algunos usuarios en ciertas páginas."
+   },
+   "save_processed_posts": {
+      "message": "Guardar posts"
+   },
+   "save_ram": {
+      "message": "ahorrar RAM (liberar personas procesadas de la RAM)"
+   },
+   "saved_posts": {
+      "message": "Guardados:"
+   },
+   "script_scanned_selected_posts": {
+      "message": " El script escaneó solo las publicaciones que SELECCIONASTE. "
+   },
+   "scrolls": {
+      "message": "Desplazamientos:"
+   },
+   "scrolls_in_business_suite": {
+      "message": "Desplazamientos en Business Suite:"
+   },
+   "scrolls_in_content_management": {
+      "message": "Desplazamientos en Gestión de contenido:"
+   },
+   "scrolls_in_creator_studio": {
+      "message": "Desplazamientos en Creator Studio:"
+   },
+   "scrolls_in_inbox": {
+      "message": "Desplazamientos en Inbox:"
+   },
+   "scrolls_in_new_publishing_tools": {
+      "message": "Desplazamientos en la nueva página de Herramientas de publicación:"
+   },
+   "seconds": {
+      "message": "s"
+   },
+   "see_more_clicked": {
+      "message": ". Botón \"Ver más\" pulsado: "
+   },
+   "set_text_at_least_5_chars": {
+      "message": "(pon el texto, mínimo 5 caracteres por frase)"
+   },
+   "set_text_link": {
+      "message": "Poner texto"
+   },
+   "shared_posts_commented": {
+      "message": ". Publicaciones compartidas comentadas: "
+   },
+   "shared_posts_comments_liked": {
+      "message": ". Compartidos con like: "
+   },
+   "shared_posts_liked": {
+      "message": ". Publicaciones compartidas con Me gusta: "
+   },
+   "small_name": {
+      "message": "m1"
+   },
+   "spintax": {
+      "message": "Spintax"
+   },
+   "spintax_supported": {
+      "message": "es compatible"
+   },
+   "start_inv": {
+      "message": "Clic para empezar a invitar"
+   },
+   "started_time": {
+      "message": "Script iniciado a las"
+   },
+   "stop_after": {
+      "message": "Detener tras"
+   },
+   "stopped_time": {
+      "message": "Script terminado a las"
+   },
+   "switch_tab_info": {
+      "message": "\u003Cspan style='color:red'>No cambie de pestaña ni minimice; el navegador puede detener el script.\u003C/span> Mantenga visible el 5% de la ventana o use complemento Picture-in-Picture."
+   },
+   "to": {
+      "message": "a"
+   },
+   "to_like_page": {
+      "message": "a dar like a tu página"
+   },
+   "too_many_add_friend_buttons": {
+      "message": "Hay un problema.\nVeo demasiados botones \"Agregar amigo\". Deberíamos ver botones \"Invitar\".\n\nAbre otra página con botones Invitar y ejecuta el script allí. ¿No los ves? ¿Usas el perfil correcto? Prueba cambiar el perfil para que coincida con tu página. O contacta con Facebook para activar la función Invitar: https://www.facebook.com/business/help"
+   },
+   "too_many_pages_alert": {
+      "message": "%s. Tienes demasiadas páginas, reduciremos un poco la lista."
+   },
+   "total_inv_sent": {
+      "message": "Total de invitaciones enviadas:"
+   },
+   "total_invited": {
+      "message": "Total invitados:"
+   },
+   "trial_next_options_only_mpv": {
+      "message": "Las siguientes opciones solo están disponibles en la versión Multi-Pages:"
+   },
+   "unsupported_language_alert": {
+      "message": "Atención. Tu idioma de Facebook (%s) no es compatible y puede que no funcione. Cambia el idioma de Facebook a INGLÉS."
+   },
+   "use_user_name_in_text": {
+      "message": "Puedes usar el nombre del usuario en el texto:"
+   },
+   "view_all_scripts": {
+      "message": "Ver todos nuestros scripts"
+   },
+   "what_is_difference": {
+      "message": "¿cuál es la diferencia?"
+   },
+   "whats_new": {
+      "message": "Ver novedades"
+   },
+   "you_stop": {
+      "message": "Has detenido el script."
+   }
+}

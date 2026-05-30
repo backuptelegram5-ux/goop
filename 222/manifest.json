@@ -1,0 +1,28 @@
+{
+   "action": {
+      "name": "__MSG_start_inv__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_descr_inv__",
+   "homepage_url": "https://www.invitelikecomment.com/",
+   "host_permissions": [ "https://*.facebook.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjekPZRKSqaJsjaMwfphl92G9LSSqN5R0uNfUBBikmhwUgBC+XO06qLXnGzhC0z/35pHja7LqvLVE/nk2C/68vI7qN4Xden770Va2z0tY55rARExDOQTqJHAan1zS3ZTwRHZqOuZCi41u/Om/5VM+Uk8pFvWbGwlYGN+RlAYpa9lEVUXDAp3PLqChKGwBOFBeekaMxrPlAOz7dSOtlTA2FmtDTdsCq2img82eHa2u6O0/CK4/bKGyZZhKIlXetpjTKsOqw8Ajp1dDzf9vDwV93KwnOsPGsay9FFEhzH7paKUGfjtAOnnzpaNmkZT4o/EfqeZI+8lxXZa0FK5+UF9ejwIDAQAB",
+   "manifest_version": 3,
+   "name": "Invite fans and post likers in Facebook™",
+   "options_page": "options.html",
+   "permissions": [ "storage", "activeTab", "scripting", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2026.05.10",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.facebook.com/*" ],
+      "resources": [ "content.css", "fonts/roboto-latin-400.woff2", "fonts/roboto-latin-700.woff2", "options.html", "comment_sender.js", "postTextNow.js", "forceReload.js", "how-to-select-posts.png" ]
+   } ]
+}
